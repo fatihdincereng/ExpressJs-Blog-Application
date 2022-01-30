@@ -3,7 +3,7 @@ Kendi blog sayfamı nodejs projesi olarak oluşturdum. Öğrendiğim her teknolo
 # Installation
 > İlk Önce Localde MongoDB Veritabanı oluşturmanız gerekir. 
 
-> Oluşturduğunuz MongoDB Veritabanını var mongoDB = '#' değişkenine atamanız gerekir.
+> Oluşturduğunuz MongoDB Veritabanını app.js içerisindeki  (var mongoDB = '#') değişkenine atamanız gerekir.
 
 > npm install
 
