@@ -1,0 +1,48 @@
+<section class="page-image page-image-contact md-padding">
+    <h1 class="text-white text-center">Kayıt Ekranı</h1>
+</section>
+    
+    <!--==========================
+    Contact Section
+============================-->
+<section id="contact" class="md-padding">
+	<div class="container">
+
+			<div class="row text-center">
+				<div class="col-md-4 offset-md-4">
+					<div class="section-header">
+						<h2 class="title">Kayıt Ol</h2>
+					</div>
+				</div>
+			</div>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<form  action="/user/register" method="post"  >
+					<div class="row">
+						<div class="offset-2 col-md-8">
+							<div class="form-group">
+								<input class="form-control" name="username" type="text" placeholder="Kullanıcı Adı" required="required" data-validation-required-message="Lütfen Kullanıcı Adınızı Giriniz">
+								<p class="help-block text-danger"></p>
+							</div>
+							<div class="form-group">
+								<input class="form-control" name="email" type="email" placeholder="E-Mail" required="required" data-validation-required-message="Lütfen Email Adresinizi Giriniz">
+								<p class="help-block text-danger"></p>
+							</div>
+								<div class="form-group">
+								<input class="form-control" name="password" type="password" placeholder="Password" required="required" data-validation-required-message="Lütfen Email Adresinizi Giriniz">
+								<p class="help-block text-danger"></p>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="col-lg-12 text-center">
+							<div id="success"></div>
+							<button id="sendRegisterButton" class="main-btn" type="submit">Kayıt Ol</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+	</div>
+</section>
