@@ -14,7 +14,6 @@ router.get('/blog', (req, res) => {
         res.render('site/blog',{posts:posts});
     });
 });
-// Bu Şekilde İd leri GOnderebiriliz İlla Postta Tanımlamaya Gerek Yok
 // router.get('/:id',(req,res)=>{
 //     Post.findById(req.params.id).lean().then(post=>{
 //         res.render('site/post',{post:post});
