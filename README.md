@@ -9,9 +9,6 @@ Kendi blog sayfamı nodejs projesi olarak oluşturdum. Öğrendiğim her teknolo
 
 > nodemon
 
->![Ekran Alıntısı](https://user-images.githubusercontent.com/88143919/151703565-524098b7-db77-4bf3-a5a1-6f5f6c99090f.PNG)
-
-
 # Kullanılan Teknolojiler
->HTML CSS NODEJS EXPRESSJS MONGODB CORS HANDLEBARS EXPRESSHANDLEBARS 
+>HTML CSS  EXPRESSJS MONGODB  HANDLEBARS  
 
